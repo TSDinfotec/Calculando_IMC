@@ -1,0 +1,21 @@
+Explicação do Código
+HTML:
+
+Criamos um formulário simples com inputs para peso e altura, e um botão para calcular o IMC.
+Um <div> vazio com id resultado será usado para mostrar o resultado do cálculo.
+CSS:
+
+Definimos estilos básicos para o formulário e o botão de forma que fiquem centralizados e visualmente agradáveis.
+JavaScript:
+
+A função calcularIMC() é chamada quando o usuário clica no botão "Calcular".
+Ela obtém os valores de peso e altura inseridos pelo usuário.
+Valida se ambos os valores são números válidos maiores que zero.
+Calcula o IMC utilizando a fórmula IMC = peso / (altura * altura).
+Exibe o resultado formatado na div resultado.
+Funcionamento
+Ao preencher os campos de peso e altura e clicar no botão "Calcular", o JavaScript vai calcular o IMC e exibir o resultado na página. Lembre-se de que este é um exemplo básico e pode ser expandido ou estilizado conforme suas necessidades adicionais.
+
+
+
+

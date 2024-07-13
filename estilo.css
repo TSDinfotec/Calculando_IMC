@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(113, 223, 223, 0.884);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    text-align: center;
+}
+
+input, button {
+    margin: 5px;
+    padding: 8px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
